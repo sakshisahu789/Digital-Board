@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Digital Notice Board",
+    "version": "1.0",
+    "description": "Set your browser homepage as a digital notice board.",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "permissions": [
+      "storage"
+    ]
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Notice Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notice-board">
+        <h1>Digital Notice Board</h1>
+        <div class="content">
+            <div class="left-section">
+                <div class="pomodoro-timer">
+                    <h2>Pomodoro Timer</h2>
+                    <div id="timer">25:00</div>
+                    <div class="controls">
+                        <button id="startBtn">Start</button>
+                        <button id="pauseBtn">Pause</button>
+                        <button id="resetBtn">Reset</button>
+                    </div>
+                </div>
+                <div class="google-calendar">
+                    <h2>Google Calendar</h2>
+                    <iframe src="https://calendar.google.com/calendar/embed?src=sahu9993352844%40gmail.com&ctz=Asia%2FKolkata" style="border: 0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="google-weather">
+                    <h2>Weather</h2>
+                    <iframe src="https://www.accuweather.com/en/in/nagpur/204844/current-weather/204844" style="border: 0" width="300" height="250" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+            <div class="google-slides">
+                <h2>Google Slides</h2>
+                <iframe src="https://docs.google.com/presentation/d/1izFrAsioipOoXnSa0eSPWbOUlE5K9PN6tQ4C9Vld_as/edit?usp=sharing" frameborder="0" width="640" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            </div>
+        </div>
+        <div class="music-player">
+            <h2>Music Player</h2>
+            <a href="https://music.youtube.com/watch?v=cfhwSpSDA9c" target="_blank">Open YouTube Music</a>
+        </div>
+        <div class="til-corner">
+            <h2>TIL (Today I Learned) Corner</h2>
+            <div class="til-content">
+                <div class="til-item">
+                    <h4>Book Title</h4>
+                    <p>Summary or Content</p>
+                </div>
+                <div class="til-item">
+                    <h4>Blog Title</h4>
+                    <p>Summary or Content</p>
+                </div>
+                <!-- Add more TIL items here -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
